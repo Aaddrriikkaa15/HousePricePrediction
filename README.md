@@ -1,7 +1,7 @@
 # HousePricePrediction
 
 Welcome to my **House Price Prediction** project!  
-This project demonstrates a complete **data science pipeline** — from data preprocessing and feature engineering to model training and custom predictions.
+This project demonstrates a complete **data science pipeline** — from data preprocessing and feature engineering to model training and custom predictions with a UI streamlit interface.
 
 ---
 
