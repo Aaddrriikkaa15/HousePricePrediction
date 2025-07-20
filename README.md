@@ -33,9 +33,33 @@ link - https://www.kaggle.com/competitions/house-prices-advanced-regression-tech
 
 ---
 
+## 🖥️ Streamlit Web App
+
+We have added a Streamlit interface to allow interactive house price prediction.
+
+### How to Run the Streamlit App
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+yaml
+Copy
+Edit
+
+
+
 ## 📈 How to Run
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/Aaddrriikkaa15/house-price-prediction.git
    cd house-price-prediction
+
+2. **Git Commands to Add and Push the New Files**
+
+Open terminal inside your repo folder and run:
+
+```bash
+git add app.py house_price_model.pkl top_20_features.pkl requirements.txt
+git commit -m "Added Streamlit app for interactive house price prediction"
+git push origin main
